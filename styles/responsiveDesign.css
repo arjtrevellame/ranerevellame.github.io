@@ -1,0 +1,264 @@
+
+/*responsived*/
+h1{
+    font-size: 45px;
+}
+.page{
+    font-size: 19px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    height: 300px;
+    
+}
+.mtC{
+    font-size: 19px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.myName {
+    font-size: 50px;
+}
+.github_bttn{
+    font-size: 19px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 140px;
+    height: 55px;
+    margin-top: 50px;
+    margin-right: 15px;
+}
+.techSkills, .softSkills, .interestDesc, .abtDesc{
+    font-size: 23px;
+}
+/*large screens (desktops)*/
+@media (max-width: 1025px) {
+    .page{
+        width: 1025px;
+        height: 1200px;
+        display: block;
+        float: none;
+        text-align: center;
+    }
+    /**/
+  
+    .abtMe {
+        margin: 0;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .abtDesc {
+        margin-right: 50px;
+        margin-left: 50px;
+        font-size: 19px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .myPic {
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    .myName {
+        display: flex;
+        align-items: flex-start;
+        font-size: 30px;
+    }
+    /**/
+    .education{
+        /*display: flexbox;
+        text-align: center;*/
+        margin: 0;
+        display: flex;
+        text-align: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .mmcl, .mtC{
+        font-size: 19px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-left: 50px;
+    }
+
+    /*interest*/
+    .interestDesc, .J, .word, .techSkills, .softSkills {
+        font-size: 19px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+}
+
+/*small screens (laptop)*/
+@media (max-width: 769px) {
+    .page{
+        width: 769px;
+        height: 1024px;
+        display: block;
+        float: none;
+        text-align: center;
+    }
+    .education{
+        /*display: flexbox;
+        text-align: center;*/
+        margin: 0;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: start;
+        align-items: start;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+    .mcsiYear{
+        font-size: 14px;
+    }
+    .mmcl{
+        
+        margin-left: 50px;
+    }
+    .mtC{
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    
+}
+/*tablet*/
+@media (max-width: 481px) {
+    .page{
+        width: 481px;
+        height: 768px;
+        display: block;
+        float: none;
+        text-align: center;
+    }
+ 
+    h1{
+        font-size: 30px;
+    }
+  
+    .mtC{
+        margin-right: 50px;
+       
+    }
+    h1{
+        margin-top: 80px;
+        text-align: center;
+        font-size: 35px;
+    }
+    /**/
+    
+    .abtDesc, .myPic, .mmcl {
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    
+    .myName {
+        display: flex;
+        align-items: flex-start;
+    }
+    h1{
+        margin-top: 100px;
+        text-align: center;
+        font-size: 35px;
+    }
+
+   
+}
+
+/*phone*/
+@media (max-width: 320px) {
+    .page{
+        display: block;
+        width: 320px;
+        height: 480px;
+        float: none;
+        text-align: center;
+    }
+    /**/
+    
+    .mmcl{
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    .mtC, .techSkills{
+        margin-right: 50px;
+    }
+   
+    h1{
+        margin-top: 60px;
+        text-align: center;
+        font-size: 35px;
+    }
+    /**/
+    
+    .abtDesc, .myPic {
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    
+    .myName {
+        display: flex;
+        align-items: flex-start;
+        
+    }
+
+    .techSkills{
+        margin-right: 50px;
+    }
+    .softSkills{
+        margin-left: 50px;
+    }
+    
+    
+ 
+}
+
+
+.navbar {
+    
+    background-color: lightpink;
+    padding: 10px;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.menu li {
+    margin-left: 10px;
+    
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+}
+
+.menu li a:hover {
+    background-color: #ddd;
+}
+
+
+.webN{
+    color: #333;
+}
+
+
+
+/**/

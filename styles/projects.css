@@ -1,0 +1,56 @@
+
+
+.projects {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: start;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.gameDesc{
+    margin-left: 10px;
+
+}
+.proj{
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: rgb(255, 229, 180);
+    
+}
+.word{
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(255, 229, 180);
+    background-color: lightpink;
+    border-radius: 12px;
+    background-color: lightpink;
+    border-color: rgb(253, 109, 193);
+    transition: background-color 0.15s, color 0.15s;
+    transition: box-shadow 0.15s;
+    vertical-align: top;
+    font-size: 15px;
+    font-size: 19px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.word:hover{
+    font-size: 15px;
+    font-weight: medium;
+    background-color: rgb(241, 143, 192);
+    color:white;
+    box-shadow: 5px 5px 10px rgba(220, 113, 235, 0.6);
+    font-size: 19px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+/*skills*/
+ul {
+    list-style: none;
+  }

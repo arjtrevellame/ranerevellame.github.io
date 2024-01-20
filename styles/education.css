@@ -1,0 +1,58 @@
+
+.education{
+    /*display: flexbox;
+    text-align: center;*/
+
+    margin: 0px;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: start;
+    align-items: start;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 19px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    
+
+}
+
+.mmcl{
+
+    /*display: grid;*/
+    flex: 1;
+    align-content: space-between;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 10px;
+    background-color: antiquewhite;
+    box-shadow: beige;
+    margin-left: 50px;
+    
+}
+.mmclLogo{
+    align-items: flex-start;
+}
+.mtC{
+
+    /*display: grid;*/
+    flex: 1;
+    align-content: space-between;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 10px;
+    background-color: antiquewhite;
+    box-shadow: beige;
+    margin-right: 50px;
+    font-size: 19px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+   
+}
+.mtCLogo{
+    align-items: flex-start;
+    text-align: center;
+}
